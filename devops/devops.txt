@@ -1,0 +1,49 @@
+svn
+
+sudo apt-get update
+sudo apt-get install subversion libapache2-svn
+sudo addgroup subversion
+sudo mkdir /home/svn
+sudo chown -R www-data:subversion /home/svn
+sudo chmod -R g=rws /home/svn/
+sudo svnadmin create /home/svn/mywebsite
+sudo vim /etc/apache2/mods-available/dev_svn.conf
+<location /svn/mywebsite>
+DAV svn 
+SVNpath /home/svn/mywebsite
+Authtype Basic
+AuthName "mywebsite subversion repository"
+AuthUserFile /etc/subversion/passwd
+<LimitExcept GET PROPFIND OPTIONS REPORT>
+Require vaild-user
+</Location>
+:wq
+
+sudo htpasswd -c /etc/subversion/passwd jcostanzo
+sudo chown -R ww-data:subversion /home/svn/mywebsite
+sudo chmod -R g+rws /home/svn/mywebsite
+sudo /etc/init.d/apache2 restart
+sudo htpasswd /etc/subversion/passwd bsmith
+sudo /etc/init.d/apache2 restartss
+
+
+
+
+vagrant
+
+vagrant
+vagrant box list
+cd vagrant
+dir
+cd ubuntu32
+dir
+edit vagrantfile
+vagrant up
+ssh
+cd vagrant\ubuntu32
+dir
+vagrant ssh
+uptime
+top
+
+cmder

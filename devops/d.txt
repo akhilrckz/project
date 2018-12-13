@@ -1,0 +1,76 @@
+
+RSureshR@DESKTOP-LMA04L3 MINGW64 ~/Desktop (master)
+$ cd \Documents
+bash: cd: Documents: No such file or directory
+
+RSureshR@DESKTOP-LMA04L3 MINGW64 ~/Desktop (master)
+$ pwd
+/c/Users/RSureshR/Desktop
+
+RSureshR@DESKTOP-LMA04L3 MINGW64 ~/Desktop (master)
+$ cd ..
+
+RSureshR@DESKTOP-LMA04L3 MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/RSureshR/.git/
+
+RSureshR@DESKTOP-LMA04L3 MINGW64 ~ (master)
+$ pwd
+/c/Users/RSureshR
+
+RSureshR@DESKTOP-LMA04L3 MINGW64 ~ (master)
+$ cd ..
+
+RSureshR@DESKTOP-LMA04L3 MINGW64 /c/Users
+$ cd /c/Users/RSureshR/Documents
+
+RSureshR@DESKTOP-LMA04L3 MINGW64 ~/Documents (master)
+$ cd ..
+
+RSureshR@DESKTOP-LMA04L3 MINGW64 ~ (master)
+$ cd /c/Users/RsureshR/Desktop/Teja
+
+RSureshR@DESKTOP-LMA04L3 MINGW64 /c/Users/RsureshR/Desktop/Teja (master)
+$ get /user/repos
+bash: get: command not found
+
+RSureshR@DESKTOP-LMA04L3 MINGW64 /c/Users/RsureshR/Desktop/Teja (master)
+$ ^C
+
+RSureshR@DESKTOP-LMA04L3 MINGW64 /c/Users/RsureshR/Desktop/Teja (master)
+$
+
+
+
+
+
+
+
+build tools
+
+ant/mavel/gradle
+java:.jar,.war,.ear
+c#:.dll,.ge---ms build
+andiord:.apk
+ios apple:.ipa
+anguler:gulf/
+
+buid tools:
+
+
+
+.............................................
+yum install unzip -y
+
+ant                                      maven
+-target based strctre                    converter over conformation ,
+
+
+
+
+
+https://www.youtube.com/watch?v=KpD_YfxQhDk&list=PLvjoRy3Okk5OVFPl2zz-JtiK--vhpwmWF
+
+
+
+...................................................
